@@ -56,7 +56,7 @@ RegisterNetEvent('mdt:client:Tablet', function()
             TriggerServerEvent('mdt:requestOfficerData')
         end
     else
-        QBCore.Functions.Notify("Zugriff verweigert!", "error")
+        QBCore.Functions.Notify("Can't do that!", "error")
     end
 end, false)
 ```
